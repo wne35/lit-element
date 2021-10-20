@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "lint",
+      "problemMatcher": [],
+      "label": "npm: lint",
+      "detail": "npm run lint:lit-analyzer && npm run lint:eslint",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "npm",
+      "script": "lint:eslint",
+      "problemMatcher": [],
+      "label": "npm: lint:eslint",
+      "detail": "eslint '**/*.js'",
+      "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "lint:lit-analyzer",
+      "problemMatcher": [],
+      "label": "npm: lint:lit-analyzer",
+      "detail": "lit-analyzer my-element.js",
+      "group": "build"
+    }
+  ]
+}

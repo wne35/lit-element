@@ -3,7 +3,37 @@
   // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
 
   // List of extensions which should be recommended for users of this workspace.
-  "recommendations": ["runem.lit-plugin"],
+  "recommendations": [
+    "runem.lit-plugin",
+    "jakebecker.elixir-ls",
+    "zignd.html-css-class-completion",
+    "formulahendry.auto-close-tag",
+    "christian-kohler.path-intellisense",
+    "HookyQR.beautify",
+    "coenraads.bracket-pair-colorizer-2",
+    "vmsynkov.colonize",
+    "dbaeumer.vscode-eslint",
+    "dbaeumer.jshint",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "idered.npm"
+  ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-  "unwantedRecommendations": []
+  "unwantedRecommendations": [
+    "runem.lit-plugin",
+    "jakebecker.elixir-ls",
+    "zignd.html-css-class-completion",
+    "formulahendry.auto-close-tag",
+    "christian-kohler.path-intellisense",
+    "HookyQR.beautify",
+    "coenraads.bracket-pair-colorizer-2",
+    "vmsynkov.colonize",
+    "dbaeumer.vscode-eslint",
+    "dbaeumer.jshint",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "idered.npm"
+  ]
 }

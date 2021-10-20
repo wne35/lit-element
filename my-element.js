@@ -71,5 +71,4 @@ export class MyElement extends LitElement {
     return `Hello, ${name}`;
   }
 }
-
-window.customElements.define('my-element', MyElement);
+customElements.define('my-element', MyElement);
